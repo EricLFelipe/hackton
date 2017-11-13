@@ -117,7 +117,7 @@ switch (inicial)
 		
 //fase2
 
-				if (p1=='1'&& p2=='1'&&p3=='1'&& p4=='1'&&p5=='1')
+				if (p1=='1'&& p2=='1'&&p3=='1'&& p4=='1'&&p5=='1' &&s[7]=='1')
 		{
 			fase2 = GameObject.FindWithTag("fase2");
 			if (fase2!=null)fase2.GetComponent<Button>().interactable = true; 
